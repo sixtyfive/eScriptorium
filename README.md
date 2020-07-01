@@ -19,5 +19,5 @@ Two options, [install with Docker](https://gitlab.inria.fr/scripta/escriptorium/
 
 ## Contributing
 
-Cf [Contributing to eScriptorium](https://gitlab.inria.fr/scripta/escriptorium/-/wikis/contributing).
+Cf. [Contributing to eScriptorium](https://gitlab.inria.fr/scripta/escriptorium/-/wikis/contributing).
 
