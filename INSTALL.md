@@ -74,17 +74,16 @@ Change, for example, the database role if need-be.
 It is then recommended to set `DJANGO_SETTINGS_MODULE`:
 
 ```bash
-export DJANGO_SETTINGS_MODULE escriptorium.local_settings
+export DJANGO_SETTINGS_MODULE=escriptorium.local_settings
 ```
 
-And use something like (direnv)[https://direnv.net/] or use a custom shell script that automates it.
+And use something like [direnv](https://direnv.net/) or use a custom shell script that includes the environment variable:
 
 ```bash
 #!/bin/bash
 # manage.sh
 
-export DJANGO_SETTINGS_MODULE=escriptorium.local_settings
-python manage.py $@
+DJANGO_SETTINGS_MODULE=escriptorium.local_settings python manage.py $@
 ```
 
 Then every time you would be using `python manage.py [args]`, you can now use `./manage.sh [args]` instead.
