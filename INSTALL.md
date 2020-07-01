@@ -19,7 +19,7 @@ sudo apt install postgresql postgresql-contrib
 Setup a user and create a database (default name is escriptorium):
 
 ```bash
-sudo -i -u postgres  # switch to postgres user
+sudo -i -u postgres # switch to postgres user
 createuser --interactive
 
 Enter name of role to add: <your username> # use your system user name
@@ -58,14 +58,14 @@ Using [virtualenv](https://docs.python.org/3/tutorial/venv.html) here but any en
 sudo apt install build-essential python3.8 python-dev python3.8-dev python3-venv python3-pip # depends on distro/OS a lot...
 pip3 install virtualenv
 virtualenv env -p python3.8 # any version >= 3.7 should work
-source env/bin/activate  
-pip install -r app/requirements.txt  
+source env/bin/activate
+pip install -r app/requirements.txt
 ```
 
 The default settings needs to be overridden for developers; these local settings can include the configuration you choose for development purposes:
 
 ```bash
-cp app/escriptorium/local_settings.py{.example,}  
+cp app/escriptorium/local_settings.py{.example,}
 <your favorite editor> app/escriptorium/local_settings.py
 ```
 
