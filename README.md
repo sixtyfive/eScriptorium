@@ -1,4 +1,4 @@
-eScriptorium is part of the [scripta](https://www.psl.eu/en/scripta) project, its goal is provide researchers in the humanities with an integrated set of tools to transcribe, annotate, translate and publish historical documents. The eScriptorium app itself is at the 'center'. It is a work in progress but will implement at least automatic transcriptions through kraken, indexing for complex search and filtering tasks, annotation and some simple form of collaborative work (such as sharing and versioning).
+eScriptorium is part of the [Scripta](https://www.psl.eu/en/scripta) project, its goal is provide researchers in the humanities with an integrated set of tools to transcribe, annotate, translate and publish historical documents. The eScriptorium app itself is at the 'center'. It is a work in progress but will implement at least automatic transcriptions through kraken, indexing for complex search and filtering tasks, annotation and some simple form of collaborative work (such as sharing and versioning).
   
 ## The stack
 
