@@ -55,9 +55,9 @@ cd escriptorium
 Using [virtualenv](https://docs.python.org/3/tutorial/venv.html) here but any environment manager should work.
 
 ```bash
-sudo apt install build-essential python3.7 python-dev python3.7-dev python3-venv python3-pip # depends on distro/OS a lot...
+sudo apt install build-essential python3.8 python-dev python3.8-dev python3-venv python3-pip # depends on distro/OS a lot...
 pip3 install virtualenv
-virtualenv env -p python3.7  # any version >= 3.7 should work
+virtualenv env -p python3.8 # any version >= 3.7 should work
 source env/bin/activate  
 pip install -r app/requirements.txt  
 ```
